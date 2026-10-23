@@ -1,0 +1,28 @@
+// Correct answers by question ID (server-side scoring). Keep in sync with the BANK in public/index.html.
+export default {
+ "Q01": "Detention",
+ "Q02": "315",
+ "Q03": "Received and syntactically accepted",
+ "Q04": "Empty release → stuffing → gate-in full → load on vessel",
+ "Q05": "The extra depot haul, handling and time",
+ "Q06": "Redirect returns to depots with headroom and pull forward evacuation moves",
+ "Q07": "On-hand available empties ÷ average daily releases",
+ "Q08": "Discharge from the vessel at the port of discharge",
+ "Q09": "Re-plan discharge or on-carriage and update customers and EDI",
+ "Q10": "A confirmed booking with matching equipment type, and credit/compliance clearance",
+ "Q11": "Detention may continue until accepted at the authorised location, and a redirect fee may apply",
+ "Q12": "Investigate for missed gate events or EDI gaps before adjusting inventory",
+ "Q13": "A lapsed CSC safety approval inspection",
+ "Q14": "Idempotent processing using a de-duplication key (unit, event code, location, timestamp)",
+ "Q15": "Keying and transcription errors in the unit number",
+ "Q16": "Revenue leakage from an event data gap",
+ "Q17": "An exception report of units with gate-out and no return beyond free time",
+ "Q18": "Terminal closure notices or appointment records, assessed under the tariff",
+ "Q19": "Proactively notify affected customers with the revised ETA and its pickup and free-time impact",
+ "Q20": "The merchant (customer)",
+ "Q21": "It is not loaded until VGM is provided, and may be rolled",
+ "Q22": "To confirm the unit reaches set temperature and passes functional checks",
+ "Q23": "Lowers the number of containers needed for the same volume",
+ "Q24": "Next-7-day bookings exceeding available stock plus confirmed inbound empties",
+ "Q25": "Trade imbalance leaves some regions with surplus empties and others with deficits"
+};
